@@ -17,7 +17,7 @@ if (!empty($_POST)) {
         'author_id' => $author_id
     ]);
 
-    header("Location: detail.php?identifiant=$bookId");
+    header("Location: index.php?identifiant=$bookId");
     exit;
 }
 
